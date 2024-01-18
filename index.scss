@@ -1,0 +1,13 @@
+@import "partials/reset.scss";
+@import "partials/variables.scss";
+
+@import "partials/small-default.scss";
+
+@media only screen and (min-width: 500px) {
+    @import "partials/medium.scss";
+} // end media query
+
+
+@media only screen and (min-width: 1140px) {
+    @import "partials/large.scss";
+} // end media query
